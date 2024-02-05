@@ -1,5 +1,7 @@
 # Ejemplo 3: Despliegue de Wordpress + mariadb
 
+> Javier González Díaz
+
 Para la instalacion de WordPress necesitamos dos contenedores: la base de datos y el servidor web con la aplicación. Los dos contenedores tienen que estar en la misma red y deben tener acceso por nombres ya que de principio no sabemos que ip va acoger cada contenedor. Por lo tanto vamos a crear los contenedores en la misma red:
 
 ```bash
