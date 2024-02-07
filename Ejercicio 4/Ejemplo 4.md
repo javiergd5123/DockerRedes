@@ -43,7 +43,7 @@ tomcat el 8080 y el directorio sample donde se ha desplegado la aplicación. Par
 contenedor de nginx:
 
 ```bash
-$ docker run -d --name proxy -p 80:80 --network red_tomcat -v default.conf:/etc/nginx/conf.d/default.conf:ro nginx
+ docker run -d --name proxy -p 80:80 --network red_tomcat -v default.conf:/etc/nginx/conf.d/default.conf:ro nginx
 ```
 
 ![Captura desde 2024-02-05 10-14-06](./Ejemplo 4.assets/Captura desde 2024-02-05 10-14-06.png)
